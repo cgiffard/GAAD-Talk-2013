@@ -40,17 +40,15 @@ body {
 	height: 100%;
 	width: 100%;
 	
-	background-image: -webkit-gradient(radial, 50% 50%,0,50% 50%,200, from(hsla(0, 0%, 0%, 0.9)), to(hsla(0, 0%, 0%, 0.00)));
 	background-image: -webkit-radial-gradient(50% 50%, hsla(0, 0%, 0%, 0.00), hsla(0, 0%, 0%, 0.9));
 	background-image: -moz-radial-gradient(50% 50%, hsla(0, 0%, 0%, 0.00), hsla(0, 0%, 0%, 0.7));
-	background-image: -o-radial-gradient(50% 50%, hsla(0, 0%, 0%, 0.00), hsla(0, 0%, 0%, 0.9));
-	background-image: -ms-radial-gradient(50% 50%, hsla(0, 0%, 0%, 0.00), hsla(0, 0%, 0%, 0.9));
 	background-image: radial-gradient(50% 50%, hsla(0, 0%, 0%, 0.00), hsla(0, 0%, 0%, 0.7));
 	
 	box-shadow: inset black 0px 0px 1em;
 	
 	-webkit-transform: translate3d(0,0,0);
 	-moz-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
 	
 	overflow: hidden;
 }
@@ -70,7 +68,7 @@ body {
 }
 
 slide {
-	padding: 12vw 12vh;
+	padding: 12vh 5vw;
 	position: absolute;
 	left: 0px;
 	top: 0px;
@@ -104,6 +102,10 @@ slide.past {
 	opacity: 0;
 }
 
+[title] {
+	padding: 12vh 12vw;
+}
+
 h1 {
 	font-size: 20vh;
 	line-height: 25vh;
@@ -132,6 +134,15 @@ li {
 ul {
 	margin-bottom: 5vh;
 	padding-left: 5vh
+}
+
+ul[cols] {
+	width: 40vw;
+	float: left;
+}
+
+ul[cols] + ul[cols] {
+	padding-left: 5vw;
 }
 
 p.byline {
