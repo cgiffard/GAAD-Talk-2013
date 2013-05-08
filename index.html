@@ -1,108 +1,84 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8"/>
-	<title>Global Accessibility Awareness Day Talk 2013</title>
-	
-	<link href="theme/theme.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-	<slidegroup>
-		<slide number="0">
-			<h1>Argh, Too Hard!</h1>
-			<p>Or, Building an Accessible Video Service that Doesn't Suck</p>
-			<p class="byline">Christopher Giffard</p>
-		</slide>
-		<slide number="1">
-			<h1>Preconceptions</h1>
-			<p>
-				You've been banging on about this for ages. Why don't we have
-				nice accessible video already?
-			</p>
-			<p later>
-				Well, a few reasons.
-			</p>
-		</slide>
-		<slide number="2">
-			<h1>What we Built</h1>
-			<p>If you ask me, the most accessible video service there is</p>
-			<ul>
-				<li>Keyboard accessible</li>
-				<li>ARIA-Live Support (really tailored)</li>
-				<li>Complete captions support in native formats</li>
-				<li>Mobile device support</li>
-				<li>Bandwidth responsiveness &amp; multiple resolutions</li>
-				<li>Load balanced and secure</li>
-				<li>Embeddable and distributable anywhere</li>
-				<li></li>
-			</ul>
-		</slide>
-		<slide number="3">
-			<h1>Argh, Too Hard!</h1>
-			<p>Or, Building an Accessible Video Service that Doesn't Suck</p>
-			<p class="byline">Christopher Giffard</p>
-		</slide>
-		<slide number="4">
-			<h1>Argh, Too Hard!</h1>
-			<p>Or, Building an Accessible Video Service that Doesn't Suck</p>
-			<p class="byline">Christopher Giffard</p>
-		</slide>
-		<slide number="5">
-			<h1>Argh, Too Hard!</h1>
-			<p>Or, Building an Accessible Video Service that Doesn't Suck</p>
-			<p class="byline">Christopher Giffard</p>
-		</slide>
-		<slide number="6">
-			<h1>Argh, Too Hard!</h1>
-			<p>Or, Building an Accessible Video Service that Doesn't Suck</p>
-			<p class="byline">Christopher Giffard</p>
-		</slide>
-		<slide number="7">
-			<h1>Argh, Too Hard!</h1>
-			<p>Or, Building an Accessible Video Service that Doesn't Suck</p>
-			<p class="byline">Christopher Giffard</p>
-		</slide>
-		<slide number="8">
-			<h1>Argh, Too Hard!</h1>
-			<p>Or, Building an Accessible Video Service that Doesn't Suck</p>
-			<p class="byline">Christopher Giffard</p>
-		</slide>
-		<slide number="9">
-			<h1>Argh, Too Hard!</h1>
-			<p>Or, Building an Accessible Video Service that Doesn't Suck</p>
-			<p class="byline">Christopher Giffard</p>
-		</slide>
-		<slide number="10">
-			<h1>Argh, Too Hard!</h1>
-			<p>Or, Building an Accessible Video Service that Doesn't Suck</p>
-			<p class="byline">Christopher Giffard</p>
-		</slide>
-	</slide>
-
-	<script type="text/javascript">
-		var slideNumber = 0;
-		window.setInterval(function() {
-			document.documentElement.className = "slide" + slideNumber;
-			[].slice.call(document.querySelectorAll("slide"),0)
-				.forEach(function(slide) {
-					var sNum = parseInt(slide.getAttribute("number"));
-					
-					if (sNum < slideNumber)
-						slide.className = "past";
-					
-					if (sNum === slideNumber)
-						slide.className = "present";
-					
-					if (sNum > slideNumber)
-						slide.className = "future";
-				});
-			
-			slideNumber = slideNumber < 10 ? slideNumber + 1 : 0;
-		},1000);
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Global Accessibility Awareness Day Talk 2013</title>
 		
-		document.documentElement.addEventListener("click",function() {
-			document.documentElement.webkitRequestFullScreen();
-		});
-	</script>
-</body>
+		<link href="theme/theme.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<slidegroup>
+			<slide number="0">
+				<h1>Argh, Too Hard!</h1>
+				<p>Or, Building an Accessible Video Service that Doesn't Suck</p>
+				<p class="byline">Christopher Giffard</p>
+			</slide>
+			<slide number="1">
+				<h1>Preconceptions</h1>
+				<p>
+					You've been banging on about this for ages. Why don't we have
+					nice accessible video already?
+				</p>
+				<p later>
+					Well, a few reasons.
+				</p>
+			</slide>
+			<slide number="2">
+				<h1>What we Built</h1>
+				<p>If you ask me, the most accessible video service there is</p>
+				<ul>
+					<li>Keyboard accessible</li>
+					<li>ARIA-Live Support (really tailored)</li>
+					<li>Complete captions support in native formats</li>
+					<li>Mobile device support</li>
+					<li>Bandwidth responsiveness &amp; multiple resolutions</li>
+					<li>Load balanced, fast and secure <em>(node.js behind varnish)</em></li>
+					<li>Embeddable and distributable anywhere</li>
+					<li>Audio descriptions, alternate video tracks</li>
+					<li>Fully interactive transcript and chapters</li>
+				</ul>
+			</slide>
+			<slide number="3">
+				<h1>Argh, Too Hard!</h1>
+				<p>Or, Building an Accessible Video Service that Doesn't Suck</p>
+				<p class="byline">Christopher Giffard</p>
+			</slide>
+			<slide number="4">
+				<h1>Argh, Too Hard!</h1>
+				<p>Or, Building an Accessible Video Service that Doesn't Suck</p>
+				<p class="byline">Christopher Giffard</p>
+			</slide>
+			<slide number="5">
+				<h1>Argh, Too Hard!</h1>
+				<p>Or, Building an Accessible Video Service that Doesn't Suck</p>
+				<p class="byline">Christopher Giffard</p>
+			</slide>
+			<slide number="6">
+				<h1>Argh, Too Hard!</h1>
+				<p>Or, Building an Accessible Video Service that Doesn't Suck</p>
+				<p class="byline">Christopher Giffard</p>
+			</slide>
+			<slide number="7">
+				<h1>Argh, Too Hard!</h1>
+				<p>Or, Building an Accessible Video Service that Doesn't Suck</p>
+				<p class="byline">Christopher Giffard</p>
+			</slide>
+			<slide number="8">
+				<h1>Argh, Too Hard!</h1>
+				<p>Or, Building an Accessible Video Service that Doesn't Suck</p>
+				<p class="byline">Christopher Giffard</p>
+			</slide>
+			<slide number="9">
+				<h1>Argh, Too Hard!</h1>
+				<p>Or, Building an Accessible Video Service that Doesn't Suck</p>
+				<p class="byline">Christopher Giffard</p>
+			</slide>
+			<slide number="10">
+				<h1>Argh, Too Hard!</h1>
+				<p>Or, Building an Accessible Video Service that Doesn't Suck</p>
+				<p class="byline">Christopher Giffard</p>
+			</slide>
+		</slide>
+		<script type="text/javascript" src="slideshow.js"></script>
+	</body>
 </html>

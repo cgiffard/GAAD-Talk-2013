@@ -124,6 +124,16 @@ p {
 	margin-bottom: 5vh;
 }
 
+li {
+	font-size: 3vh;
+	line-height: 4vh;
+}
+
+ul {
+	margin-bottom: 5vh;
+	padding-left: 5vh
+}
+
 p.byline {
 	position: absolute;
 	bottom: 5vh;
