@@ -78,11 +78,12 @@ slide {
 	height: 100%;
 	
 	-webkit-transition: -webkit-transform 1s ease-in-out;
+	-moz-transition: -moz-transform 1s ease-in-out;
+	transition: transform 1s ease-in-out;
 	
-	-webkit-transform:	rotateY( -45deg ) translateZ(-1000px);
-	-moz-transform:		rotateY( -45deg ) translateZ(-1000px);
-	-o-transform:		rotateY( -45deg ) translateZ(-1000px);
-	transform:			rotateY( -45deg ) translateZ(-1000px);
+	-webkit-transform:	rotateY( -90deg ) translateZ(-1000px);
+	-moz-transform:		rotateY( -90deg ) translateZ(-1000px);
+	transform:			rotateY( -90deg ) translateZ(-1000px);
 }
 
 slide + slide {
