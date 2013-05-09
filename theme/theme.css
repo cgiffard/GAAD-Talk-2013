@@ -166,3 +166,7 @@ a {
 	color: white;
 	text-decoration: none;
 }
+
+[margintop] {
+	margin-top: 10vh;
+}
