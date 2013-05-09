@@ -7,115 +7,113 @@
 		<link href="theme/theme.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
-		<slidegroup>
-			<slide title>
-				<h1>Argh, Too Hard!</h1>
-				<p>Or, Building an Accessible Online Video Service that Doesn't Suck</p>
-				<p class="byline">Christopher Giffard <a href="http://app.net/cgiffard">(@cgiffard)</a></p>
-			</slide>
-			<slide>
-				<h1>Preconceptions</h1>
-				<p>
-					You've been banging on about this for ages.
-				</p>
-				<p>
-					Why don't we all have nice accessible video already?
-				</p>
-				<p later>
-					Well, a few reasons.
-				</p>
-			</slide>
-			<slide>
-				<p class="centre">For many people</p>
-				<h1 class="centre">Accessibility is synonymous with suck.</h1>
-				<p class="centre">Why does accessible software have to look so bad and work so poorly?</p>
-			</slide>
-			<slide>
-				<h1>What we Built</h1>
-				<p>If you ask me, the most accessible video service there is.</p>
-				<ul cols>
-					<li>Keyboard accessible</li>
-					<li>ARIA-Live Support (really tailored)</li>
-					<li>Complete captions support in browser native formats</li>
-					<li>Mobile device support</li>
-					<li>Bandwidth responsiveness &amp; multiple resolutions</li>
-					<li>Load balanced, fast and secure <em>(node.js behind varnish)</em></li>
-					<li>Embeddable and distributable anywhere</li>
-				</ul>
-				<ul cols>
-					<li>Audio descriptions, alternate video tracks</li>
-					<li>Fully interactive transcript and chapters</li>
-					<li>Automatic transcoding</li>
-					<li>Responsive design</li>
-					<li>Live thumbnail preview when reading transcript</li>
-					<li>MediaFragments to link straight to content</li>
-					<li>Fast start streaming</li>
-					<li><strong>And much more...</strong></li>
-				</ul>
-			</slide>
-			<slide>
-				<p class="centre">But most importantly:</p>
-				<h1 class="centre">It looks great.</h1>
-				<p class="centre">(And works wonderfully too.)</p>
-			</slide>
-			<slide>
-				<h1>Roadblocks</h1>
-				<ul>
-					<li>Cost of producing captions</li>
-					<li>Turnaround time</li>
-					<li>Resistance to new processes</li>
-					<li>Lack of understanding</li>
-					<li>Technical challenges</li>
-				</ul>
-				<p>And not all of these problems are totally solved.</p>
-			</slide>
-			<slide>
-				<h1>We deal with this by...</h1>
-				<ul>
-					<li>Working with caption and transcription providers</li>
-					<li>Educating stakeholders</li>
-					<li>Investing time in making systems easier to use</li>
-					<li>Learning, building, and deploying new technology</li>
-					<li>Providing a great user experience!</li>
-				</ul>
-			</slide>
-			<slide>
-				<h1>Technology</h1>
-				<p>When we started, the technology wasn't there.</p>
-				<p>We worked around that by building a lot of it ourselves.</p>
-				<p>But now, there's lots to choose from!</p>
-			</slide>
-			<slide>
-				<h1>What about for me?</h1>
-				<p>If you have <em>no</em> development expertise, YouTube is actually reasonably good. (Hardly perfect, though.)</p>
-				<p>If you do, there's a checklist of things you'll need to satisfy.</p>
-			</slide>
-			<slide>
-				<h1>Checklist</h1>
-				<ul>
-					<li>Delivers video using HTML5. <strong>Not optional.</strong></li>
-					<li>Flash fallback for IE8 (in ~1-2 years, won't be required and should be removed.)</li>
-					<li>Video available in both WebM and H.264</li>
-					<li>Video player is responsive</li>
-					<li>Video player is completely keyboard accessible.</li>
-					<li>Offer the video and caption files as a fallback</li>
-					<li>Provide a transcript and captions using an open standard.</li>
-				</ul>
-				<p>As a general guide, no part of your stack, at all, ever, should use a proprietary technology.</p>
-			</slide>
-			<slide>
-				<h1>In production for 1.5 years</h1>
-				<p>We learnt that node.js was very very stable and fast and oh so wonderful.</p>
-				<p>There were lots of problems with cross-domain security.</p>
-				<p>Corporate gateways &amp; proxies need to shape up their act.</p>
-			</slide>
-			<slide>
-				<h1>Demo</h1>
-			</slide>
-			<slide number="10">
-				<h1>Q&amp;A</h1>
-				<p>Thanks for your time! Anybody have any questions?</p>
-			</slide>
+		<slide title>
+			<h1>Argh, Too Hard!</h1>
+			<p>Or, Building an Accessible Online Video Service that Doesn't Suck</p>
+			<p class="byline">Christopher Giffard <a href="http://app.net/cgiffard">(@cgiffard)</a></p>
+		</slide>
+		<slide>
+			<h1>Preconceptions</h1>
+			<p>
+				You've been banging on about this for ages.
+			</p>
+			<p>
+				Why don't we all have nice accessible video already?
+			</p>
+			<p later>
+				Well, a few reasons.
+			</p>
+		</slide>
+		<slide>
+			<p class="centre">For many people</p>
+			<h1 class="centre">Accessibility is synonymous with suck.</h1>
+			<p class="centre">Why does accessible software have to look so bad and work so poorly?</p>
+		</slide>
+		<slide>
+			<h1>What we Built</h1>
+			<p>If you ask me, the most accessible video service there is.</p>
+			<ul cols>
+				<li>Keyboard accessible</li>
+				<li>ARIA-Live Support (really tailored)</li>
+				<li>Complete captions support in browser native formats</li>
+				<li>Mobile device support</li>
+				<li>Bandwidth responsiveness &amp; multiple resolutions</li>
+				<li>Load balanced, fast and secure <em>(node.js behind varnish)</em></li>
+				<li>Embeddable and distributable anywhere</li>
+			</ul>
+			<ul cols>
+				<li>Audio descriptions, alternate video tracks</li>
+				<li>Fully interactive transcript and chapters</li>
+				<li>Automatic transcoding</li>
+				<li>Responsive design</li>
+				<li>Live thumbnail preview when reading transcript</li>
+				<li>MediaFragments to link straight to content</li>
+				<li>Fast start streaming</li>
+				<li><strong>And much more...</strong></li>
+			</ul>
+		</slide>
+		<slide>
+			<p class="centre">But most importantly:</p>
+			<h1 class="centre">It looks great.</h1>
+			<p class="centre">(And works wonderfully too.)</p>
+		</slide>
+		<slide>
+			<h1>Roadblocks</h1>
+			<ul>
+				<li>Cost of producing captions</li>
+				<li>Turnaround time</li>
+				<li>Resistance to new processes</li>
+				<li>Lack of understanding</li>
+				<li>Technical challenges</li>
+			</ul>
+			<p>And none of these problems are totally solved.</p>
+		</slide>
+		<slide>
+			<h1>We deal with this by...</h1>
+			<ul>
+				<li>Working with caption and transcription providers</li>
+				<li>Educating stakeholders</li>
+				<li>Investing time in making systems easier to use</li>
+				<li>Learning, building, and deploying new technology</li>
+				<li>Providing a great user experience!</li>
+			</ul>
+		</slide>
+		<slide>
+			<h1>Technology</h1>
+			<p>When we started, the technology wasn't there.</p>
+			<p>We worked around that by building a lot of it ourselves.</p>
+			<p>But now, there's lots to choose from!</p>
+		</slide>
+		<slide>
+			<h1>What about for me?</h1>
+			<p>If you have <em>no</em> development expertise, YouTube is actually reasonably good. (Hardly perfect, though.)</p>
+			<p>If you do, there's a checklist of things you'll need to satisfy.</p>
+		</slide>
+		<slide>
+			<h1>Checklist</h1>
+			<ul>
+				<li>Delivers video using HTML5. <strong>Not optional.</strong></li>
+				<li>Flash fallback for IE8 (in ~1-2 years, won't be required and should be removed.)</li>
+				<li>Video available in both WebM and H.264</li>
+				<li>Video player is responsive</li>
+				<li>Video player is completely keyboard accessible.</li>
+				<li>Offer the video and caption files as a fallback</li>
+				<li>Provide a transcript and captions using an open standard.</li>
+			</ul>
+			<p>As a general guide, no part of your stack, at all, ever, should use a proprietary technology.</p>
+		</slide>
+		<slide>
+			<h1>In production for 1.5 years</h1>
+			<p>We learnt that node.js was very very stable and fast and oh so wonderful.</p>
+			<p>There were lots of problems with cross-domain security.</p>
+			<p>Corporate gateways &amp; proxies need to shape up their act.</p>
+		</slide>
+		<slide>
+			<h1>Demo</h1>
+		</slide>
+		<slide>
+			<h1>Q&amp;A</h1>
+			<p>Thanks for your time! Anybody have any questions?</p>
 		</slide>
 		<script type="text/javascript" src="slideshow.js"></script>
 	</body>
