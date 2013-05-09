@@ -79,9 +79,9 @@ slide {
 	-moz-transition: -moz-transform 1s ease-in-out, opacity 1s ease-out;
 	transition: transform 1s ease-in-out, opacity 1s ease-out;
 	
-	-webkit-transform:	rotateY( -90deg ) translateZ(-1000px) translateX(50vw);
-	-moz-transform:		rotateY( -90deg ) translateZ(-1000px) translateX(50vw);
-	transform:			rotateY( -90deg ) translateZ(-1000px) translateX(50vw);
+	-webkit-transform:	rotateY( -90deg ) translateZ(-1000px) translateX(100%);
+	-moz-transform:		rotateY( -90deg ) translateZ(-1000px) translateX(100%);
+	transform:			rotateY( -90deg ) translateZ(-1000px) translateX(100%);
 	
 	opacity: 0;
 }
@@ -95,9 +95,9 @@ slide.present {
 }
 
 slide.past {
-	-webkit-transform:	rotateY( 90deg ) translateZ(-1000px) translateX(-50vw);
-	-moz-transform:		rotateY( 90deg ) translateZ(-1000px) translateX(-50vw);
-	transform:			rotateY( 90deg ) translateZ(-1000px) translateX(-50vw);
+	-webkit-transform:	rotateY( 90deg ) translateZ(-1000px) translateX(-100%);
+	-moz-transform:		rotateY( 90deg ) translateZ(-1000px) translateX(-100%);
+	transform:			rotateY( 90deg ) translateZ(-1000px) translateX(-100%);
 	
 	opacity: 0;
 }
