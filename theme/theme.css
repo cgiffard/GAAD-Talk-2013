@@ -40,7 +40,7 @@ body {
 	height: 100%;
 	width: 100%;
 	
-	background-image: -webkit-radial-gradient(50% 50%, hsla(0, 0%, 0%, 0.00), hsla(0, 0%, 0%, 0.9));
+	background-image: -webkit-radial-gradient(50% 50%, hsla(0, 0%, 0%, 0.3), hsla(0, 0%, 0%, 0.9));
 	background-image: -moz-radial-gradient(50% 50%, hsla(0, 0%, 0%, 0.00), hsla(0, 0%, 0%, 0.7));
 	background-image: radial-gradient(50% 50%, hsla(0, 0%, 0%, 0.00), hsla(0, 0%, 0%, 0.7));
 	
@@ -152,4 +152,24 @@ p.byline {
 	text-transform: uppercase;
 	letter-spacing: 0.5vh;
 	color: gold;
+}
+
+.centre {
+	/* text-align: center; */
+}
+
+h1.centre {
+	font-weight: bold;
+	font-size: 15vh;
+	line-height: 17vh;
+}
+
+p.centre {
+	text-transform: uppercase;
+	border: none;
+}
+
+a {
+	color: white;
+	text-decoration: none;
 }
