@@ -7,6 +7,10 @@ Talk delivered 09/08/2013 for Global Accessibility Awareness Day (Canberra)
 * [View the slide deck](https://rawgithub.com/cgiffard/GAAD-Talk-2013/master/index.html#0)
 * [Get in touch](http://app.net/cgiffard)
 
+### Notes
+
+You can see a demo of the video technology at http://deewr.gov.au/videos
+
 ### Technology
 
 This slide deck is powered by the most minimal JS/HTML slide deck ever:
