@@ -4,7 +4,7 @@ Talk delivered 09/08/2013 for Global Accessibility Awareness Day (Canberra)
 
 [![Screenshot](https://rawgithub.com/cgiffard/GAAD-Talk-2013/master/screenshots/thumbnail.jpg)](https://rawgithub.com/cgiffard/GAAD-Talk-2013/master/index.html#0)
 
-* [View the slide deck](https://rawgithub.com/cgiffard/GAAD-Talk-2013/master/index.html#0)
+* [View the slide deck](https://rawgithub.com/cgiffard/GAAD-Talk-2013/master/index.html#0) (Left and right arrow keys change slides)
 * [Get in touch](http://app.net/cgiffard)
 
 ### Notes
