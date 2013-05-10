@@ -38,5 +38,5 @@
 	html[on]("click",(html.webkitRequestFullScreen||html.mozRequestFullScreen),!1);
 
 	// Mobile
-	html[on]("touchstart",nextFrame,!1);
+	html[on]("touchstart",next,!1);
 }());
