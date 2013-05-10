@@ -36,4 +36,7 @@
 
 	// Fullscreen body on demand
 	html[on]("click",(html.webkitRequestFullScreen||html.mozRequestFullScreen),!1);
+
+	// Mobile
+	html[on]("touchstart",nextFrame,!1);
 }());
